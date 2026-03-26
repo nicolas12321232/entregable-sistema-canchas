@@ -16,8 +16,3 @@ graph TD
 
 
 
-    Ejecutar Frontend (React + Vite)
-
-    cd ms-frontend
-    npm install
-    npm run dev

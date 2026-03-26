@@ -13,3 +13,11 @@ graph TD
     Frontend --> Reservas["ms-reservas-backend (Spring Boot)"]
     Auth --> DB1[(DB Usuarios)]
     Reservas --> DB2[(DB Canchas)]
+
+
+
+    Ejecutar Frontend (React + Vite)
+
+    cd ms-frontend
+    npm install
+    npm run dev

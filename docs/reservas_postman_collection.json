@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "a1b2c3d4-e5f6-7890-1234-56789abcdef0",
+		"name": "API Reservas de Canchas (Mock)",
+		"description": "Colección de prueba para el sistema de reservas de canchas.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "Obtener Usuarios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/usuarios",
+							"protocol": "http",
+							"host": ["localhost"],
+							"port": "8080",
+							"path": ["api", "usuarios"]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Canchas",
+			"item": [
+				{
+					"name": "Listar Canchas Disponibles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/canchas",
+							"protocol": "http",
+							"host": ["localhost"],
+							"port": "8081",
+							"path": ["api", "canchas"]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
